@@ -79,6 +79,7 @@ def do_run_migrations(connection):
     with context.begin_transaction():
         context.run_migrations()
 
+
 async def run_migrations_online():
     """Run migrations in 'online' mode.
 
